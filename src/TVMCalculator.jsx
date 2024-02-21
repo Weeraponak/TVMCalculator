@@ -68,10 +68,11 @@ function TVMCalculator() {
                 <button onClick={calculateNumberOfPeriods}>Calculate Number of Periods</button>
                 <button onClick={calculateAnnualInterestRate}>Calculate Annual Interest Rate</button>
             </div>
-            <div className="image-section">
+            {/* <div className="image-section">
                 <img src={investImage} alt="Investing" className="fixed-image" />
                 <img src={financeImage} alt="Finance" className="fixed1-image" />
-            </div></center>
+            </div> */}
+            </center>
         </div>
     );
 }
